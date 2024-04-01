@@ -41,7 +41,12 @@ body {
   grid-template: repeat(15, 1fr) / repeat(20, 1fr);
 }
 .game-board .snake {
-  background-color: rgb(6, 179, 58);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .control {
